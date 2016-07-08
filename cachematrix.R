@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## To return the inverse of a matrix obtained from the user.
+## If the value is already computed and stored in cache then existing value is returned.
+## Else new inverse is calculated and returned.
 
-## Write a short comment describing this function
+## This function is used to get/set the value of matrix and its inverse 
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -30,7 +31,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function is used to get user input 
+## Compute inverse and return the value to user.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
